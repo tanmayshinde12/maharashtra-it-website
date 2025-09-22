@@ -1,0 +1,95 @@
+// ===================================
+// MAHARASHTRA IT WEBSITE - MODERN DESIGN SYSTEM
+// ===================================
+
+// Enhanced Government Brand Colors
+$primary-orange: #FF6600;
+$primary-orange-light: #FF8533;
+$primary-orange-dark: #E55A00;
+$primary-orange-gradient: linear-gradient(135deg, #FF6600 0%, #FF8533 100%);
+
+$primary-blue: #1E3A8A;
+$primary-blue-light: #3B82F6;
+$primary-blue-dark: #1E40AF;
+$primary-blue-gradient: linear-gradient(135deg, #1E3A8A 0%, #3B82F6 100%);
+
+$secondary-blue: #3B82F6;
+$accent-gold: #FFD700;
+$accent-silver: #C0C0C0;
+
+// Modern Neutral Palette
+$white: #FFFFFF;
+$off-white: #FEFEFE;
+$light-gray: #F8FAFC;
+$medium-gray: #64748B;
+$dark-gray: #334155;
+$charcoal: #1E293B;
+$black: #0F172A;
+
+// Status Colors
+$success-green: #10B981;
+$warning-yellow: #F59E0B;
+$error-red: #EF4444;
+
+// Typography
+$font-family-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+$font-family-devanagari: 'Noto Sans Devanagari', 'Mangal', 'Kokila', sans-serif;
+
+// Font Sizes
+$font-size-xs: 0.75rem;    // 12px
+$font-size-sm: 0.875rem;   // 14px
+$font-size-base: 1rem;     // 16px
+$font-size-lg: 1.125rem;   // 18px
+$font-size-xl: 1.25rem;    // 20px
+$font-size-2xl: 1.5rem;    // 24px
+$font-size-3xl: 2rem;      // 32px
+$font-size-4xl: 2.5rem;    // 40px
+
+// Spacing (8px base unit)
+$spacing-xs: 0.25rem;   // 4px
+$spacing-sm: 0.5rem;    // 8px
+$spacing-md: 1rem;      // 16px
+$spacing-lg: 1.5rem;    // 24px
+$spacing-xl: 2rem;      // 32px
+$spacing-2xl: 3rem;     // 48px
+$spacing-3xl: 4rem;     // 64px
+
+// Breakpoints
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+$breakpoint-xxl: 1400px;
+
+// Border Radius
+$border-radius-sm: 0.25rem;
+$border-radius-md: 0.5rem;
+$border-radius-lg: 1rem;
+$border-radius-full: 9999px;
+
+// Modern Shadows & Effects
+$shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+$shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+$shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+$shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+$shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+
+// Glassmorphism Effects
+$glass-bg: rgba(255, 255, 255, 0.1);
+$glass-border: rgba(255, 255, 255, 0.2);
+$glass-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+
+// Modern Gradients
+$gradient-primary: linear-gradient(135deg, $primary-orange 0%, $primary-orange-light 100%);
+$gradient-blue: linear-gradient(135deg, $primary-blue 0%, $primary-blue-light 100%);
+$gradient-hero: linear-gradient(135deg, rgba(30, 58, 138, 0.9) 0%, rgba(255, 102, 0, 0.8) 100%);
+$gradient-card: linear-gradient(145deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
+
+// Z-index
+$z-dropdown: 1000;
+$z-sticky: 1020;
+$z-fixed: 1030;
+$z-modal-backdrop: 1040;
+$z-modal: 1050;
+$z-popover: 1060;
+$z-tooltip: 1070;
